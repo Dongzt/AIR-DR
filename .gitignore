@@ -1,0 +1,11 @@
+
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+__pycache__/
+*.pyc
+
+
+.DS_Store

@@ -1,0 +1,13 @@
+torch
+torchvision
+diffusers
+transformers
+accelerate
+mmdet
+mmengine
+opencv-python
+numpy
+pyyaml
+tqdm
+scipy
+timm

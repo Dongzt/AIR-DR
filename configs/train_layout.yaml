@@ -1,0 +1,27 @@
+dataset:
+  root: "your_data_path"  
+  img_size: [640, 640]
+  ratios: ['16_9', '1_1', '9_16']
+
+model:
+  type: "tiny" 
+
+train:
+  output_dir: "checkpoints/swin_tiny_v1"
+  epochs: 300
+  batch_size: 16
+  lr: 5.0e-4
+  weight_decay: 1.0e-3
+  val_interval: 50 
+  loss: "mse" 
+
+  scheduler:
+    warmup_epochs: 10
+    min_lr: 1.0e-6
+
+test:
+  batch_size: 16
+
+system:
+  device: "cuda:0" 
+  num_workers: 4
