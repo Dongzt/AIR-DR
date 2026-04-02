@@ -34,3 +34,17 @@ python tools/eval_sdr.py \
   --retarget_dir your_results_path
 ```
 
+## Citation
+If you find this work useful for your research, please cite:
+```latex
+@inproceedings{dong2026air,
+  title={AIR-DR: Adaptive Image Retargeting with Instance Relocation and Dual-guidance Repainting},
+  author={Dong, Zhitong and Li, Chao and Deng, Yongjian and Chen, Hao},
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={40},
+  number={5},
+  pages={3668--3676},
+  year={2026}
+}
+
+
